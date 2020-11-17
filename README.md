@@ -1,2 +1,2 @@
 # wEM
-Notes on Classical Electromagnetism
+Notes on Python
