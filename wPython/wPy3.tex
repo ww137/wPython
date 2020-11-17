@@ -17,11 +17,13 @@
     bookmarks=true,
     unicode
 }
+\usepackage{algorithm2e}
+\usepackage{listings}
 
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{3}
 
-\title{Notes on Python}
+\title{Notes on Python for vv137}
 \author{김민수}
 \date{\today}
 
@@ -38,9 +40,24 @@
 \mainmatter
 %%%
 
-%% PART: Introduction
-\part{Preliminaries}
+%% PART: Installation and Setting Environemnts
+\part{Installation and Setting Environments}
 %
+\input{0000_env/000_anaconda.tex}
+
+%% PART: Python Primer
+\part{Python Primer}
+%
+\input{0100_Py3_Primer/000_py3_intro.tex}
+\input{0100_Py3_Primer/101_overview.tex}
+\input{0100_Py3_Primer/102_objects.tex}
+\input{0100_Py3_Primer/103_exp_ops.tex}
+\input{0100_Py3_Primer/104_flow.tex}
+\input{0100_Py3_Primer/105_functions.tex}
+\input{0100_Py3_Primer/106_simple_io.tex}
+\input{0100_Py3_Primer/107_exception.tex}
+\input{0100_Py3_Primer/108_iter_yield.tex}
+
 
 %%%
 \appendix
