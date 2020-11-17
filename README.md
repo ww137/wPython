@@ -1,2 +1,2 @@
-# wEM
+# Notes on Python
 Notes on Python
